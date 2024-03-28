@@ -8,7 +8,7 @@ function getUserProfile(user){
     if(user==1){
         return "fren"
     }else{
-        return "DefaultUser"
+        return "DefaultUserloloo"
     }
 }   
 // let user = getUserProfile();
