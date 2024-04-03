@@ -1,0 +1,37 @@
+
+body{
+    text-align: center;
+    background-image: url(https://github.com/lvarayut/JavaScript-21-Days-Challenge/blob/master/01%20-%20Falling%20Snow/background.jpg?raw=true);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+hr{
+    color: green;
+    size :40%;
+}
+p{
+    color: white;
+    font-size: 50px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#btn{
+    width: 150px;
+    height: 20px;
+    border-radius: 8px;
+   
+    
+}
+#btnRun{
+    width: 150px;
+    height: 25px;
+    border-radius: 8px;
+    
+}
