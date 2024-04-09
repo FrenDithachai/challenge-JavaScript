@@ -3,7 +3,7 @@
     return firstname + lastname;
 }*/
 
-fullname=(firstname, lastname)=>firstname+lastname;
+const fullname=(firstname, lastname)=>firstname+lastname;
 
 //?. ให้แปลงจาก Function ปกติไปเป็น Arrow Function
 
@@ -14,7 +14,7 @@ fullname=(firstname, lastname)=>firstname+lastname;
 }*/
 
 //*แปลง
-triangleArea=(base, height)=>{
+const triangleArea=(base, height)=>{
     console.log("Calculate triangle area",base,height);
     const area = (base * height) / 2;
     console.log(area);
