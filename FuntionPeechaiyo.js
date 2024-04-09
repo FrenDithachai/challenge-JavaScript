@@ -7,15 +7,19 @@ const fullname=(firstname, lastname)=>firstname+lastname;
 
 //?. ให้แปลงจาก Function ปกติไปเป็น Arrow Function
 
-/*function triangleArea(base, height) {
+// function triangleArea(base, height) {
+//     console.log("Calculate triangle area");
+//     const area = (base * height) / 2;
+//     return area;
+// }
+
+//*แปลง
+const triangleArea=(base, height)=>{
     console.log("Calculate triangle area");
     const area = (base * height) / 2;
     return area;
-}*/
-
-//*แปลง
-const triangleArea=(base, height)=>"Calculate triangle area"+' '+(base*height) / 2;
-console.log(triangleArea(50,50))
+}
+console.log(triangleArea(50,50));
 
 
 //? 3. ให้แปลงจาก Arrow Function ไปเป็น Function ปกติ
