@@ -14,21 +14,15 @@ const fullname=(firstname, lastname)=>firstname+lastname;
 }*/
 
 //*แปลง
-const triangleArea=(base, height)=>{
-    console.log("Calculate triangle area",base,height);
-    const area = (base * height) / 2;
-    console.log(area);
-}
-let num= triangleArea(50,50)
+const triangleArea=(base, height)=>"Calculate triangle area"+' '+(base*height) / 2;
+console.log(triangleArea(50,50))
+
 
 //? 3. ให้แปลงจาก Arrow Function ไปเป็น Function ปกติ
 // const circleArea = (radius) => Math.PI * radius ** 2;
 
 //*แปลง
 function circleArea(radius){
-    return Math.PI * radius ** 2
-    //console.log(Math.PI * radius ** 2);
-    
-    
+    console.log(Math.PI * radius ** 2);
 }
 let number = circleArea(20);
